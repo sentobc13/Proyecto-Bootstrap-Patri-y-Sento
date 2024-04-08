@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>"Bootstrap Sento y Patri"</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+  <nav class="navbar">
+
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Bootstrap.</a>
+
+      <ul class="nav nav-pills">
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="crearusuario.html">Crear ususario</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="usuarios.html">Usuarios</a>
+        </li>
+
+      </ul>
+
+      </ul>
+
+
+
+
+    </div>
+  </nav>
+
+
+  <div class="background-container">
+    <!-- Imagen de fondo -->
+    <img src="Imágenes y doc/Inicio-img(1).jpg" alt="Imagen de fondo">
+
+    <!-- Contenedor del formulario -->
+    <div class="form-container">
+
+
+      <!-- Sección Formulario -->
+      <div class="container">
+
+
+        <form id="formulario"><br>
+            <div>
+              <legend>Datos personales</legend>
+              <label class="nombre"><b>Nombre:</b></label><br>
+              <input class="form-control-lg" id="nombre" name="nombre" placeholder="Escriba su nombre" autofocus><br>
+            </div>
+            <div>
+              <label for="correo"><b>Correo elctrónico:</b></label><br>
+              <input class="form-control-lg" type="email" id="email" name="email" placeholder="nombre@ejemplo.com"><br>
+            </div>
+            <div>
+              <label for="contraseña"><b>Contraseña:</b></label><br>
+              <input class="form-control-lg" type="password" id="contraseña" name="contraseña"
+                placeholder="Introduzca su contraseña"><br>
+            </div>
+            <div>
+              <label for="repetirContraseña"><b>Repite tu Contraseña:</b></label><br>
+              <input class="form-control-lg" type="password" id="repetirContraseña" name="repetirContraseña"
+                placeholder="Introduzca su contraseña"><br><br>
+            </div>
+
+            <button id="btnEnviar" class="btn btn-primary" type="submit">Enviar</button>
+            <button class="btn btn-danger" type="reset">Resetear</button>
+
+             <div id="msgDiv"></div>
+             
+            
+        </form>
+      </div>
+
+
+    </div>
+  </div>
+
+  
+
+
+
+
+
+
+
+
+
+
+  <script> src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity = "sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin = "anonymous"</script>
+  <script src="JavaScript/crearususario.js"></script>
+
+
+
+
+
+</body>
+
+<footer class="footer">
+  <div>
+    <p>Realizado por Sento y Patricia</p>
+
+  </div>
+</footer>
+
+</html>
